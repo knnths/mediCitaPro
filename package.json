@@ -1,0 +1,21 @@
+{
+  "name": "medicita-pro",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Sistema web de gestión de citas médicas: Express + MySQL (Clever Cloud) desplegable en Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "db:init": "node scripts/init-db.js"
+  },
+  "engines": { "node": "22.x" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.5"
+  }
+}
